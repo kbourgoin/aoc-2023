@@ -1,3 +1,7 @@
+#!/usr/bin/env bash
+
+set -ex
+
 mkdir $1
 cp _template.py $1/main.py
 touch $1/input.txt
